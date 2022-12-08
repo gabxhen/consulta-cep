@@ -1,9 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@300;400;500&display=swap');
+
 html,
 body {
+  background: #FF782C;
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Alexandria', sans-serif;
+}
+
+h2 {
+  font-weight: 500;
+}
+
+span {
+  font-weight: 500;
 }
 
 a {
@@ -15,9 +25,9 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   html {
-    color-scheme: dark;
+    color-scheme: light;
   }
   body {
     color: white;
